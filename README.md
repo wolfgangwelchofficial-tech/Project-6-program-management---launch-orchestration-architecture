@@ -109,3 +109,15 @@ Program management under capital constraint requires:
 The liquor permit was not a task.
 
 It was the program anchor.
+
+---
+
+## Visual & Structural Artifacts
+
+- [Workstream Layering](dependency_mapping/workstream_layers.md)
+- [Dependency Diagram](dependency_mapping/dependency_diagram.md)
+- [Critical Path Model](critical_path/liquor_permit_anchor.md)
+- [Adaptive Gate Control](risk_adaptation/adaptive_gate_control.md)
+- [Risk Register](risk_adaptation/risk_register.md)
+- [Milestone Gates](timeline_architecture/milestone_gates.md)
+- [30-Day Activation Sprint](activation_sprint/30_day_compression_model.md)
