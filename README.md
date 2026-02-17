@@ -1,123 +1,109 @@
-# Program Management & Launch Orchestration Architecture
-EMG Management | Founder-Operator | Reno, NV
+---
+
+## Program Architecture
+
+The remodel and launch followed a gated orchestration model rather than a linear construction schedule.  
+Capital burn, vendor contracts, and licensing approvals were sequenced deliberately to compress time-to-revenue while controlling risk exposure.
+
+The visual below represents the master program structure.
+
+![Program Gantt Architecture](visuals/program-gantt-architecture.png)
+
+### What This Demonstrates
+
+- Parallel execution of construction, compliance, and systems integration
+- Liquor permit positioned as critical path anchor
+- Deferred hiring until regulatory certainty
+- Capital deployment structured around permit risk
+
+Full breakdown of sequencing logic:  
+→ `timeline_architecture/gantt_structure.md`
 
 ---
 
-## Executive Summary
+## Critical Path Governance
 
-This project documents the dependency-aware program architecture used to remodel and launch a self-funded operating asset.
+The liquor permit functioned as the single-point activation trigger for the entire business.  
+Without it, all capital deployed remained non-revenue generating.
 
-Execution was structured through:
+The dependency map below illustrates how construction, inspections, and agency sign-offs converged into the final approval gate.
 
-- Gantt-based dependency mapping
-- Critical path identification
-- Activation gate control
-- Adaptive sequencing under unexpected regulatory delay
-- 30-day compressed operational sprint upon clearance
+![Liquor Permit Dependency Map](visuals/dependency-map-liquor-anchor.png)
 
-The liquor permit functioned as the program's critical path anchor.
+### Governance Model
 
-When that anchor shifted, downstream streams were frozen and re-sequenced.
+- Each department (Fire, Building, Health, City) required sign-off
+- All deficiencies triggered reinspection loops
+- Capital burn was measured weekly against regulatory progress
+- Hiring and inventory were intentionally delayed to preserve liquidity
 
----
-
-## Workstream Layering
-
-The program was executed in phased parallel streams:
-
-### Phase 1 — Foundational Streams
-- Construction / Remodel
-- Licensing & Regulatory
-- Vendor Contracts
-- Financial Management
-
-### Phase 2 — Systems & Brand
-- Vendor Contracts (continued)
-- Technology Implementation
-- Marketing & Brand Activation
-- Compliance & Insurance
-
-### Phase 3 — Operational Activation
-- Hiring & Training
-
-Hiring was intentionally gated behind liquor permit approval.
-
-See:
-- [Workstream Layers](dependency_mapping/workstream_layers.md)
+Detailed dependency logic:  
+→ `critical_path/liquor_permit_anchor.md`
 
 ---
 
-## Critical Path Anchor
+## Gate-Based Activation Framework
 
-The liquor permit served as the critical dependency gate.
+Once the liquor permit was issued (last week of August), the program shifted from compliance mode to activation sprint.
 
-Without it:
-- Revenue could not begin.
-- Hiring could not activate.
-- Inventory could not be purchased.
-- Operational ramp would burn capital.
+The framework below represents structured activation gates.
 
-See:
-- [Liquor Permit Critical Path Model](critical_path/liquor_permit_anchor.md)
+![Activation Gate Framework](visuals/activation-gate-framework.png)
 
----
+### Gate Progression
 
-## Adaptive Gate Control
+**Gate 1 – Regulatory Clearance**
+- Liquor license approval
+- All department sign-offs complete
 
-Initial timeline did not anticipate extended regulatory delay.
+**Gate 2 – Infrastructure Activation**
+- POS fully built and tested
+- Inventory loaded and categorized
+- Vendor contracts operational
 
-Upon disruption:
+**Gate 3 – Workforce Deployment**
+- Hiring sprint initiated
+- Systems training completed
+- Policy alignment to theme execution
 
-- Downstream streams were frozen.
-- Hiring was postponed.
-- Inventory acquisition delayed.
-- Activation window compressed.
+**Gate 4 – Revenue Stabilization**
+- Opening week execution
+- KPI validation
+- Labor-to-sales calibration
 
-Program discipline shifted from forward momentum to capital preservation.
-
-See:
-- [Adaptive Gate Control Model](risk_adaptation/adaptive_gate_control.md)
-
----
-
-## 30-Day Activation Sprint
-
-Upon approval:
-
-- Hiring launched immediately.
-- Vendor orders placed.
-- Staff training completed.
-- Systems tested.
-- Go-live executed within 30 days.
-
-This compression prevented further capital depletion.
-
-See:
-- [30-Day Compression Model](activation_sprint/30_day_compression_model.md)
+Full activation model:  
+→ `activation_model/gate_based_launch.md`
 
 ---
 
-## Strategic Insight
+## Capital Risk Compression
 
-Program management under capital constraint requires:
+Total capital deployed:  
+- $300,000 remodel
+- $12,000 permits
+- $3,000 materials
+- $3,800 monthly rent
+- $2,500 sound & lighting
+- $1,200 POS lease
+- $1,100 insurance
+- $3,000 marketing agency
+- Utilities + owner burn
 
-- Dependency clarity
-- Gate discipline
-- Adaptive re-sequencing
-- Compression capability upon clearance
+Opening delayed from March 15 → September 28.
 
-The liquor permit was not a task.
+This created a compressed runway scenario where regulatory delay directly impacted liquidity.
 
-It was the program anchor.
+The program architecture above reflects how risk was absorbed and restructured in real time rather than passively endured.
 
 ---
 
-## Visual & Structural Artifacts
+## Strategic Outcome
 
-- [Workstream Layering](dependency_mapping/workstream_layers.md)
-- [Dependency Diagram](dependency_mapping/dependency_diagram.md)
-- [Critical Path Model](critical_path/liquor_permit_anchor.md)
-- [Adaptive Gate Control](risk_adaptation/adaptive_gate_control.md)
-- [Risk Register](risk_adaptation/risk_register.md)
-- [Milestone Gates](timeline_architecture/milestone_gates.md)
-- [30-Day Activation Sprint](activation_sprint/30_day_compression_model.md)
+- Immediate $70K opening week
+- $30K weekly stabilization target achieved opening week
+- Zero leakage above inventory tolerance threshold
+- Full systems interoperability across POS, Inventory, Labor, Payroll, CRM
+
+This project demonstrates structured regulatory navigation, capital governance under uncertainty, and launch execution under liquidity compression.
+
+---
