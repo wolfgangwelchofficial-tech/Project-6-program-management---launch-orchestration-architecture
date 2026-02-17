@@ -21,19 +21,6 @@ This project demonstrates program governance under capital exposure.
 
 ---
 
-## Artifact Index (Deep Dives)
-
-- **Program Timeline (Gantt Structure)** → [timeline_architecture/gantt_structure.md](timeline_architecture/gantt_structure.md)  
-- **Workstream Layering Model** → [dependency_mapping/workstream_layers.md](dependency_mapping/workstream_layers.md)  
-- **Dependency Mapping Overview** → [dependency_mapping/dependency_diagram.md](dependency_mapping/dependency_diagram.md)  
-- **Critical Path Anchor (Liquor Permit)** → [critical_path/liquor_permit_anchor.md](critical_path/liquor_permit_anchor.md)  
-- **Adaptive Gate Control** → [risk_adaptation/adaptive_gate_control.md](risk_adaptation/adaptive_gate_control.md)  
-- **Program Risk Register** → [risk_adaptation/risk_register.md](risk_adaptation/risk_register.md)  
-- **Milestone Gates Framework** → [timeline_architecture/milestone_gates.md](timeline_architecture/milestone_gates.md)  
-- **30-Day Activation Sprint** → [activation_sprint/30_day_compression_model.md](activation_sprint/30_day_compression_model.md)
-
----
-
 ## Program Architecture
 
 The remodel and launch followed a gated orchestration model rather than a simple construction schedule.
